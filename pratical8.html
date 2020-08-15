@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 8</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+    }
+.header
+{
+    height: 65px;   
+    background-color: grey;
+   
+    width: 100%;
+    
+  position: sticky;
+  top: 0;
+}
+.banner
+{
+   
+    height: 600px;
+margin-top: 20px;
+
+   width: 100%;
+   overflow: hidden;
+  
+}
+
+.col {
+  float: left;
+  width: 24%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.main-content
+{
+    padding: 2px;
+  
+   float: left;
+  background-color: grey;
+  text-align: left;;
+  color: white;
+  height: 568px;
+overflow: hidden;
+  
+  width: 49%;
+}
+
+.article1
+{
+    float: right;
+    background-color: lightsalmon;
+    text-align: center;
+    height: 180px;
+    padding: 0px;
+   
+    width: 48%;
+    
+   
+    overflow: hidden;
+   
+    
+}
+
+.article2
+{
+    margin-top: 15px;
+    float: right;
+    background-color: lightsalmon;
+    text-align: center;
+    height: 180px;
+    padding: 0px;
+   
+    width: 48%;
+    
+   
+    overflow: hidden;
+   
+    ;
+}
+
+
+.article3
+{
+    margin-top: 15px;
+    float: right;
+    background-color: lightsalmon;
+    text-align: center;
+    height: 180px;
+    padding: 0px;
+   
+    width: 48%;
+    
+   
+    overflow: hidden;
+   
+    
+}
+
+
+
+.footer
+{
+    border-style: solid;
+    padding: 3px;
+    text-align: center;
+    background-color: lightpink;
+    color: white;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+   
+    padding: 20px;
+}
+ul li{
+    list-style-type: none;
+    
+}
+ul li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+  
+    
+}
+#i1{
+    border-radius: 50%;
+}
+.top-left {
+  color: aliceblue;
+  top: 85px;
+  left: 16px;
+  position: absolute;
+}
+.centered{
+    position: absolute;
+    top: 1502px;
+    left: 960px;
+    
+    color: black;
+}
+.centered1
+{
+    position: absolute;
+    top: 1690px;
+    left: 960px;
+}
+.centered2
+{
+    position: absolute;
+    top: 1890px;
+    left: 960px;
+}
+
+.column {
+  float: left;
+  width: 24%;
+  margin-right: 10px;
+  height: 400px;
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.container {
+  padding: 0 16px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color:red;
+}
+
+
+</style>
+
+<body>
+    <div class="header" id="header1">
+     <ul>
+         <li>
+             <a href="#header1"> HOME</a>
+         </li>
+         <li>
+            <a href="#about-us1"> ABOUT US</a>
+        </li>
+        <li>
+            <a href="#team1"> TEAM</a>
+        </li>
+        <li>
+            <a href="#tech1"> TECHNOLOGIES</a>
+        </li>
+        <li>
+            <a href="#contact1"> CONTACT</a>
+        </li>
+     </ul>
+    </div>
+    <div class="banner">
+      
+        <img src="./i/p5.jpg" alt="img" width="100%">
+        <div class="top-left" style="font-size: 50px;">Practical-8</div>
+    </div>
+<h1 style="text-align: center;color: black; font-size: 30px; padding-top: 200px; font-weight: bold;" id="team1">TEAM MEMBERS</h1>
+<div class="row">
+    <div class="col">
+      <img id="i1" src="./i/p1.png" alt="circle" style="width:100%">
+    </div>
+    <div class="col">
+      <img id="i1" src="./i/p2.png" alt="circle" style="width:100%">
+    </div>
+    <div class="col">
+      <img id="i1" src="./i/p3.png" alt="circle" style="width:100%">
+    </div>
+    <div class="col">
+        <img id="i1" src="./i/p4.png" alt="circle" style="width:100%">
+      </div>
+  </div>
+  <h1 style="text-align: center;color: black; font-size: 30px; padding-top: 200px; font-weight: bold;" id="about-us1">ABOUT US</h1>
+
+<div class="main-content">
+    <h2 style="font-size: 60px; padding-top: 10px;">About Projects</h2>
+    <p style="text-align: justify; padding-top: 10px;  font-size: 25px;">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit possimus quis pariatur mollitia illo nihil beatae maxime error vero aliquid aliquam perspiciatis deserunt illum consequuntur sunt ducimus repellendus neque voluptatum, cumque veniam soluta! Velit vero debitis ex enim porro aut magni laudantium corrupti explicabo nesciunt, totam voluptatibus ab, quam inventore!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores similique magni eum quaerat totam, sed nisi ipsa explicabo quam sequi est, aliquid vero odio possimus officiis harum ratione magnam esse corrupti rem ipsum. Voluptatum repellendus voluptatem labore, laborum quidem nulla harum dolore quae, saepe, pariatur vero esse sapiente dicta cum?</p>
+</div>
+<div class="row">
+<div class="article1">
+    <img src="./i/p6.jpg" alt="img" width="100%">
+    <div class="centered" style="font-size: 20px; font-weight: bold;">Project-1</div>
+</div>
+
+<div class="article2">
+    <img src="./i/p7.jpeg" alt="img" width="100%">
+    <div class="centered1" style="font-size: 20px; font-weight: bold;">Project-2</div>
+</div>
+
+<div class="article3">
+    <img src="./i/p8.jpg" alt="img" width="100%">
+    <div class="centered2" style="font-size: 20px; font-weight: bold;">Project-3</div>
+</div>
+</div>
+
+<h1 style="text-align: center;color: black; font-size: 30px; padding-top: 200px; font-weight: bold;" id="tech1">TECHNOLOGIES USED</h1>
+<div class="column">
+    <div class="card">
+      <img src="./i/html.png" alt="img" style="width:100%;">
+      <div class="container">
+        <h2 style="font-size: 20px; text-align: center;">Introduction To Html</h2>
+        <p>HTML stands for Hyper Text Markup Language.
+            It is used to design web pages using markup language.
+         </p>
+        
+        <a href="practical5a.html" target="blank"><p><button class="button">READ MORE</button></p></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="./i/css.jpeg" alt="img" style="width:100%;">
+      <div class="container">
+        <h2 style="font-size: 20px; text-align: center;">Introduction To Css </h2>
+        <p> Cascading Style Sheets, fondly referred to as CSS, 
+            is a simply designed language intended to simplify the
+             process. 
+             </p>
+        
+        <a href="practical5b.html" target="blank"><p><button class="button">READ MORE</button></p></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="./i/js.png" alt="img" style="width:100%;">
+      <div class="container">
+        <h2 style="font-size: 20px; text-align: center;">Introduction To JAvaScript </h2>
+        <p>JavaScript is a dynamic computer programming language.It is an interpreted programming language.</p>
+        
+        <a href="practical5c.html" target="blank"><p><button class="button">READ MORE</button></p></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="./i/B.png" alt="img" style="width:100%;">
+      <div class="container">
+        <h2 style="font-size: 20px; text-align: center;">Introduction To Bootstrap </h2>
+        <p>Bootstrap is the best HTML, CSS and JavaScript framework for any web developer.
+         </p>
+        
+        <a href="practical5d.html" target="blank"><p><button class="button">READ MORE</button></p></a>
+      </div>
+    </div>
+</div>
+
+  
+
+  <h1 style="text-align: center;color: black; font-size: 30px; padding-top: 200px; font-weight: bold;">CONTACT</h1>
+
+<div class="footer">
+    <h2 style="padding-top: 10px;" id="contact1">Contact :- 8439313325</h2>
+   <a href="#header1" <h5 style="color: white;">Back to top</h5>
+</div>
+</body>
+</html>
